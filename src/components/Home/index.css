@@ -1,0 +1,18 @@
+/* Write your CSS here */
+* {
+  font-family: 'roboto';
+}
+.bg {
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-text {
+  color: #303150;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
