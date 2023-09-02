@@ -1,16 +1,13 @@
 /* Write your CSS here */
-* {
-  font-family: 'roboto';
-}
-.login-head {
-  color: #ffffff;
-  font-size: 35px;
-  font-weight: bold;
-}
 .login-btn {
   color: #303150;
-  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
   border: none;
-  border-radius: 8px;
-  padding: 12px;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
 }

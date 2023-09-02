@@ -2,17 +2,31 @@
 * {
   font-family: 'roboto';
 }
-.bg {
+.main-conrainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
   background-image: linear-gradient(#2b2c49, #b5b9ff);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.button-text {
+.text {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-align {
+  text-align: center;
+}
+.btn {
   color: #303150;
   background-color: #ffffff;
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 12px;
 }

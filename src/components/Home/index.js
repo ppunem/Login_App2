@@ -1,17 +1,28 @@
 // Write your code here
+import {Component} from 'react'
 import Login from '../Login'
 import Logout from '../Logout'
 import './index.css'
 
-const Home = () => {
-  const {btnClicked, BtnClicked} = props
+class Home extends Componen {
+  state = {isLoggedIn: false}
 
-  return (
-    <>
-      {!btnClicked && <Login />}
-      {BtnClicked && <Logout />}
-    </>
-  )
+  onClickButton=()=>{
+      this.setState(prevState=>{isLoggedIn:!prevState.isLoggedIn})
+  }
+
+  render() {
+      const {isLoggedIn}=this.state
+      return(
+           <div className="main-cotainer">
+            <div className="Container">
+              <Message isLoggedIn={isLoggedIn}/>
+              {isLoggedIn?<Logout logout={this.onClickButton}/>:<Login Login={this.onClickButton}/>}
+            </div>
+          <div/>
+      )
+    
+  }
 }
 
 export default Home
