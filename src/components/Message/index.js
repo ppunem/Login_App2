@@ -1,7 +1,7 @@
 // Write your code here
 import './index.css'
 
-const Message = () => {
+const Message = props => {
   const {isLoggedIn} = props
 
   return isLoggedIn ? (

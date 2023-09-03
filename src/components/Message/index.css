@@ -1,1 +1,6 @@
 /* Write your CSS here */
+.head {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'roboto';
+}
